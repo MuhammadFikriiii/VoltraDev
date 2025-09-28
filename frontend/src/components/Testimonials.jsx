@@ -47,7 +47,7 @@ const Testimonials = () => {
       name: 'Linda Permata',
       position: 'Owner',
       company: 'Resto Sederhana',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&q=80',
+      image: 'https://images.unsplash.com/photo-1607746882042-944635dfe10e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80',
       rating: 4,
       testimonial: 'Mobile app yang dibuat untuk restaurant kami sangat membantu! Fitur online ordering dan table booking berjalan lancar. Customer jadi lebih mudah order dan kami bisa manage reservation dengan lebih efisien.',
       project: 'Restaurant Mobile App',
