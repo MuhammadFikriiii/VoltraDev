@@ -25,7 +25,7 @@ const Testimonials = () => {
       name: 'Sari Dewi',
       position: 'Marketing Director',
       company: 'PT Maju Jaya',
-      image: 'https://images.unsplash.com/photo-1494790108755-2616b612b5bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&q=80',
+      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80',
       rating: 5,
       testimonial: 'Kualitas website company profile yang dibuat VoltraDev luar biasa! Design-nya elegant, SEO-optimized, dan mudah di-maintain. Sejak website baru launch, inquiry dari calon klien meningkat drastis. Highly recommended!',
       project: 'Company Profile Website',
