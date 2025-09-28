@@ -29,7 +29,7 @@ const Process = () => {
       icon: <Code className="w-8 h-8" />,
       color: 'from-green-500 to-teal-600',
       bgColor: 'from-green-50 to-teal-50',
-      duration: '7-14 Hari'
+      duration: '1-2 Minggu'
     },
     {
       id: 4,
@@ -56,7 +56,7 @@ const Process = () => {
       icon: <Settings className="w-8 h-8" />,
       color: 'from-amber-500 to-orange-600',
       bgColor: 'from-amber-50 to-orange-50',
-      duration: 'Ongoing'
+      duration: 'Berkelanjutan'
     }
   ];
 

@@ -91,11 +91,11 @@ const Contact = () => {
   ];
 
   const budgetRanges = [
-    '< Rp 5 Juta',
+    'Di bawah Rp 5 Juta',
     'Rp 5 - 15 Juta',
     'Rp 15 - 30 Juta',
     'Rp 30 - 50 Juta',
-    '> Rp 50 Juta',
+    'Di atas Rp 50 Juta',
     'Diskusi Lebih Lanjut'
   ];
 
@@ -104,7 +104,7 @@ const Contact = () => {
     '3-4 Minggu',
     '1-2 Bulan',
     '3-6 Bulan',
-    '> 6 Bulan',
+    'Lebih dari 6 Bulan',
     'Tidak Terburu-buru'
   ];
 
@@ -163,15 +163,15 @@ const Contact = () => {
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
                   <span>WhatsApp:</span>
-                  <Badge className="bg-white/20 text-white">&lt; 1 Jam</Badge>
+                  <Badge className="bg-white/20 text-white">Kurang dari 1 Jam</Badge>
                 </div>
                 <div className="flex items-center justify-between">
                   <span>Email:</span>
-                  <Badge className="bg-white/20 text-white">&lt; 24 Jam</Badge>
+                  <Badge className="bg-white/20 text-white">Kurang dari 24 Jam</Badge>
                 </div>
                 <div className="flex items-center justify-between">
                   <span>Project Quote:</span>
-                  <Badge className="bg-white/20 text-white">&lt; 48 Jam</Badge>
+                  <Badge className="bg-white/20 text-white">Kurang dari 48 Jam</Badge>
                 </div>
               </div>
             </Card>

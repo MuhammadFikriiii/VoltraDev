@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Card } from './ui/card';
 import { Badge } from './ui/badge';
-import { Code, Palette, Database, Smartphone } from 'lucide-react';
+import { Code, Palette, Database, Smartphone, Globe, Server, Figma, Layers } from 'lucide-react';
 
 const Skills = () => {
   const [activeCategory, setActiveCategory] = useState('all');
@@ -13,14 +13,14 @@ const Skills = () => {
       icon: <Code className="w-6 h-6" />,
       color: 'from-blue-500 to-purple-600',
       skills: [
-        { name: 'React.js', level: 95, logo: '⚛️' },
-        { name: 'Vue.js', level: 90, logo: '💚' },
-        { name: 'HTML5/CSS3', level: 98, logo: '🎨' },
-        { name: 'JavaScript ES6+', level: 96, logo: '📜' },
-        { name: 'TypeScript', level: 88, logo: '🔷' },
-        { name: 'Tailwind CSS', level: 95, logo: '🎭' },
-        { name: 'Bootstrap', level: 92, logo: '🅱️' },
-        { name: 'Sass/SCSS', level: 90, logo: '🎀' }
+        { name: 'React.js', level: 'Expert', logo: <Globe className="w-5 h-5" /> },
+        { name: 'Vue.js', level: 'Expert', logo: <Globe className="w-5 h-5" /> },
+        { name: 'HTML5/CSS3', level: 'Expert', logo: <Code className="w-5 h-5" /> },
+        { name: 'JavaScript ES6+', level: 'Expert', logo: <Code className="w-5 h-5" /> },
+        { name: 'TypeScript', level: 'Advanced', logo: <Code className="w-5 h-5" /> },
+        { name: 'Tailwind CSS', level: 'Expert', logo: <Layers className="w-5 h-5" /> },
+        { name: 'Bootstrap', level: 'Expert', logo: <Layers className="w-5 h-5" /> },
+        { name: 'Sass/SCSS', level: 'Advanced', logo: <Layers className="w-5 h-5" /> }
       ]
     },
     {
@@ -29,14 +29,14 @@ const Skills = () => {
       icon: <Database className="w-6 h-6" />,
       color: 'from-green-500 to-teal-600',
       skills: [
-        { name: 'Laravel', level: 94, logo: '🔺' },
-        { name: 'PHP', level: 93, logo: '🐘' },
-        { name: 'Node.js', level: 89, logo: '🟢' },
-        { name: 'Python', level: 85, logo: '🐍' },
-        { name: 'MySQL', level: 92, logo: '🗄️' },
-        { name: 'PostgreSQL', level: 88, logo: '🐘' },
-        { name: 'MongoDB', level: 86, logo: '🍃' },
-        { name: 'REST API', level: 95, logo: '🔗' }
+        { name: 'Laravel', level: 'Expert', logo: <Server className="w-5 h-5" /> },
+        { name: 'PHP', level: 'Expert', logo: <Server className="w-5 h-5" /> },
+        { name: 'Node.js', level: 'Advanced', logo: <Server className="w-5 h-5" /> },
+        { name: 'Python', level: 'Intermediate', logo: <Server className="w-5 h-5" /> },
+        { name: 'MySQL', level: 'Expert', logo: <Database className="w-5 h-5" /> },
+        { name: 'PostgreSQL', level: 'Advanced', logo: <Database className="w-5 h-5" /> },
+        { name: 'MongoDB', level: 'Advanced', logo: <Database className="w-5 h-5" /> },
+        { name: 'REST API', level: 'Expert', logo: <Globe className="w-5 h-5" /> }
       ]
     },
     {
@@ -45,14 +45,14 @@ const Skills = () => {
       icon: <Palette className="w-6 h-6" />,
       color: 'from-pink-500 to-rose-600',
       skills: [
-        { name: 'Figma', level: 92, logo: '🎨' },
-        { name: 'Adobe XD', level: 88, logo: '🔷' },
-        { name: 'Photoshop', level: 85, logo: '🖼️' },
-        { name: 'Illustrator', level: 82, logo: '✏️' },
-        { name: 'Prototyping', level: 90, logo: '🔗' },
-        { name: 'Wireframing', level: 93, logo: '📐' },
-        { name: 'User Research', level: 87, logo: '🔍' },
-        { name: 'Design Systems', level: 89, logo: '🎯' }
+        { name: 'Figma', level: 'Expert', logo: <Figma className="w-5 h-5" /> },
+        { name: 'Adobe XD', level: 'Advanced', logo: <Layers className="w-5 h-5" /> },
+        { name: 'Photoshop', level: 'Intermediate', logo: <Layers className="w-5 h-5" /> },
+        { name: 'Illustrator', level: 'Intermediate', logo: <Layers className="w-5 h-5" /> },
+        { name: 'Prototyping', level: 'Expert', logo: <Figma className="w-5 h-5" /> },
+        { name: 'Wireframing', level: 'Expert', logo: <Figma className="w-5 h-5" /> },
+        { name: 'User Research', level: 'Advanced', logo: <Palette className="w-5 h-5" /> },
+        { name: 'Design Systems', level: 'Advanced', logo: <Layers className="w-5 h-5" /> }
       ]
     },
     {
@@ -61,12 +61,12 @@ const Skills = () => {
       icon: <Smartphone className="w-6 h-6" />,
       color: 'from-orange-500 to-red-600',
       skills: [
-        { name: 'React Native', level: 87, logo: '📱' },
-        { name: 'Flutter', level: 83, logo: '🦋' },
-        { name: 'PWA', level: 90, logo: '⚡' },
-        { name: 'Responsive Design', level: 96, logo: '📐' },
-        { name: 'Mobile UI/UX', level: 91, logo: '📲' },
-        { name: 'App Store Optimization', level: 85, logo: '🏪' }
+        { name: 'React Native', level: 'Advanced', logo: <Smartphone className="w-5 h-5" /> },
+        { name: 'Flutter', level: 'Intermediate', logo: <Smartphone className="w-5 h-5" /> },
+        { name: 'PWA', level: 'Expert', logo: <Globe className="w-5 h-5" /> },
+        { name: 'Responsive Design', level: 'Expert', logo: <Layers className="w-5 h-5" /> },
+        { name: 'Mobile UI/UX', level: 'Expert', logo: <Smartphone className="w-5 h-5" /> },
+        { name: 'App Store Optimization', level: 'Intermediate', logo: <Smartphone className="w-5 h-5" /> }
       ]
     }
   ];
@@ -81,6 +81,15 @@ const Skills = () => {
       return skillCategories;
     }
     return skillCategories.filter(cat => cat.id === activeCategory);
+  };
+
+  const getLevelColor = (level) => {
+    switch(level) {
+      case 'Expert': return 'bg-green-100 text-green-800 border-green-200';
+      case 'Advanced': return 'bg-blue-100 text-blue-800 border-blue-200';
+      case 'Intermediate': return 'bg-yellow-100 text-yellow-800 border-yellow-200';
+      default: return 'bg-gray-100 text-gray-800 border-gray-200';
+    }
   };
 
   return (
@@ -134,20 +143,12 @@ const Skills = () => {
                   <Card key={index} className="p-4 bg-gradient-to-br from-amber-50 to-orange-50 border-amber-200/50 hover:shadow-lg transition-all duration-300 transform hover:scale-105">
                     <div className="flex items-center justify-between mb-3">
                       <div className="flex items-center space-x-3">
-                        <span className="text-2xl">{skill.logo}</span>
-                        <span className="font-medium text-amber-800">{skill.name}</span>
+                        <div className="text-amber-600">{skill.logo}</div>
+                        <span className="font-medium text-amber-800 text-sm">{skill.name}</span>
                       </div>
-                      <Badge className="bg-gradient-to-r from-amber-600 to-orange-600 text-white">
-                        {skill.level}%
+                      <Badge className={`text-xs border ${getLevelColor(skill.level)}`}>
+                        {skill.level}
                       </Badge>
-                    </div>
-                    
-                    {/* Progress Bar */}
-                    <div className="w-full bg-amber-200/50 rounded-full h-2 overflow-hidden">
-                      <div 
-                        className={`h-full bg-gradient-to-r ${category.color} rounded-full transition-all duration-1000 ease-out`}
-                        style={{ width: `${skill.level}%` }}
-                      ></div>
                     </div>
                   </Card>
                 ))}
