@@ -79,7 +79,7 @@ const Team = () => {
       name: 'Budi Santoso',
       role: 'Mobile Developer',
       specialization: 'React Native, Flutter, Cross-Platform',
-      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80',
+      image: 'https://images.unsplash.com/photo-1507591064344-4c6ce005b128?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
       description: 'Mobile development specialist dengan expertise dalam cross-platform solutions. Focus pada performance optimization dan native user experience.',
       skills: ['React Native', 'Flutter', 'Dart', 'Firebase', 'App Store Optimization'],
       icon: <Smartphone className="w-6 h-6" />,
