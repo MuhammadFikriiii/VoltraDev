@@ -163,15 +163,15 @@ const Contact = () => {
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
                   <span>WhatsApp:</span>
-                  <Badge className="bg-white/20 text-white">< 1 Jam</Badge>
+                  <Badge className="bg-white/20 text-white">&lt; 1 Jam</Badge>
                 </div>
                 <div className="flex items-center justify-between">
                   <span>Email:</span>
-                  <Badge className="bg-white/20 text-white">< 24 Jam</Badge>
+                  <Badge className="bg-white/20 text-white">&lt; 24 Jam</Badge>
                 </div>
                 <div className="flex items-center justify-between">
                   <span>Project Quote:</span>
-                  <Badge className="bg-white/20 text-white">< 48 Jam</Badge>
+                  <Badge className="bg-white/20 text-white">&lt; 48 Jam</Badge>
                 </div>
               </div>
             </Card>
