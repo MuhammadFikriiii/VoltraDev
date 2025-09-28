@@ -58,7 +58,7 @@ const Testimonials = () => {
       name: 'Fadli Rahman',
       position: 'IT Manager',
       company: 'CV Digital Solusi',
-      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&q=80',
+      image: 'https://images.unsplash.com/photo-1507591064344-4c6ce005b128?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80',
       rating: 5,
       testimonial: 'Dashboard analytics yang dibangun VoltraDev sangat membantu decision making kami. Real-time data visualization-nya akurat dan interface-nya intuitive. Team support mereka juga sangat responsive untuk maintenance.',
       project: 'Analytics Dashboard',
