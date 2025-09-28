@@ -41,7 +41,7 @@ const Blog = () => {
       title: 'UI/UX Design Principles untuk Website E-Commerce',
       slug: 'uiux-design-ecommerce-principles',
       excerpt: 'Panduan lengkap merancang user experience yang converting untuk toko online, dari landing page hingga checkout process yang smooth.',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       category: 'Design',
       author: 'Maya Sari',
       publishDate: '10 Jan 2025',
