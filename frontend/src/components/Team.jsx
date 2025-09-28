@@ -62,7 +62,7 @@ const Team = () => {
       name: 'Sari Indah',
       role: 'Frontend Developer',
       specialization: 'React, Vue.js, Mobile-First Development',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80',
+      image: 'https://images.unsplash.com/photo-1607746882042-944635dfe10e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
       description: 'Frontend developer dengan passion pada modern JavaScript frameworks. Expert dalam creating responsive dan interactive user interfaces.',
       skills: ['React.js', 'Vue.js', 'TypeScript', 'Tailwind CSS', 'Jest'],
       icon: <Code className="w-6 h-6" />,
