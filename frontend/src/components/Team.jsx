@@ -11,7 +11,7 @@ const Team = () => {
       name: 'Rizki Pratama',
       role: 'Lead Full-Stack Developer',
       specialization: 'React.js, Laravel, System Architecture',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80',
+      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
       description: 'Expert dalam mengembangkan aplikasi web complex dengan 5+ tahun pengalaman. Specialist dalam system architecture dan performance optimization.',
       skills: ['React.js', 'Laravel', 'Node.js', 'AWS', 'Docker'],
       icon: <Code className="w-6 h-6" />,
